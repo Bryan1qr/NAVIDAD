@@ -1,0 +1,84 @@
+---
+title: "Untitled"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+Pestaña1
+===
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+![](fondo2.jpg)
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+```
+
+### Chart C
+
+```{r}
+
+```
+
+
+Pestaña2 {.storyboard}
+===
+
+### Noticia 1
+
+![](TIME_LINE/F3.png)
+
+***
+Esta es la primera sección de noticias
+
+
+### Noticia 2
+
+![](TIME_LINE/F1.png)
+
+***
+Esta es la primera sección de noticias Esta es la primera sección de noticiasEsta es la primera sección de noticiasEsta es la primera sección de noticiasEsta es la primera sección de noticiasEsta es la primera sección de noticiasEsta es la primera sección de noticiasEsta es la primera sección de noticiasEsta es la primera sección de noticias
+
+Monitoreo
+===
+
+Column {data-width=250}
+---
+
+### Parte 1
+
+Column {.tabset data-width=200}
+---
+
+### 2023
+
+Aquí van los códigos de programación
+
+### 2024
+
+Aquí va más código
+
+### 2025
+
+Aquí va más código
+
+
+Column {data-width=250}
+---
+
+
